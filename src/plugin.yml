@@ -2,6 +2,7 @@ name: Jack
 version: 1.0.0
 author: bittiez
 main: US.bittiez.Jack.main
+api-version: 1.15
 commands:
     Jack:
         description: Jack reload command

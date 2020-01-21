@@ -1,2 +1,9 @@
 name: "Jack"
-required_prefix: "Hey Jack" #The prefix is NOT case sensitive, so a player typing hEY JacK will still work here
+
+#The prefix is NOT case sensitive, so a player typing hEY JacK will still work here
+#Do not use color codes here
+required_prefix: "Hey Jack"
+
+#You can use color codes here
+#You can use [RESPONSE] and [PLAYER] here
+response: "&3Jack: &7[RESPONSE]"

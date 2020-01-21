@@ -1,8 +1,21 @@
-questions:
-  vote: _vote
-  voting: _vote
-  discord: _discord
+# https://onlineyamltools.com/edit-yaml
+
+#Anything under listen is what the bot looks for in a chat message
+#Jack works from the top down, so if a player types "How do i vote and do you have discord?" he will respond to Vote,
+# because vote is higher on the listen list. He won't respond to both.
+
+listen:
+  "vote": _vote
+  "voting": _vote
+  "discord": _discord
+  "voice chat": _discord
+
+#All answers must be in list form, and Jack will choose a random one from that list, if you only have one item in the
+# list, that is the only one it will display
 
 answers:
-  _vote: "Our voting websites are: cool.com"
-  _discord: "You can join our discord server here: discord.com"
+  _vote:
+  - "Our voting websites are: cool.com"
+  _discord:
+  - "You can join our discord server here: discord.com"
+  - "Yes we have discord! Here's the link: blah.com"
