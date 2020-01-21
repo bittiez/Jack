@@ -1,0 +1,2 @@
+name: "Jack"
+required_prefix: "Hey Jack" #The prefix is NOT case sensitive, so a player typing hEY JacK will still work here
