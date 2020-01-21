@@ -1,4 +1,4 @@
-package US.Me.EmptyPlugin;
+package US.bittiez.Jack;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

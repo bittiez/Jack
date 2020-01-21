@@ -1,11 +1,11 @@
-name: EmptyPlugin
+name: Jack
 version: 1.0.0
-author: me
-main: US.Me.EmptyPlugin.main
+author: bittiez
+main: US.bittiez.Jack.main
 commands:
-    EmptyPlugin:
-        description: EmptyPlugin Command
-        usage: /EmptyPlugin
+    Jack:
+        description: Jack reload command
+        usage: /Jack
 permissions:
-    Empty.plugin:
-        description: Stuff
+    Jack.respond:
+        description: Jack will only listen to you if you have this permission
