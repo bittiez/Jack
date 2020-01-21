@@ -1,0 +1,11 @@
+name: EmptyPlugin
+version: 1.0.0
+author: me
+main: US.Me.EmptyPlugin.main
+commands:
+    EmptyPlugin:
+        description: EmptyPlugin Command
+        usage: /EmptyPlugin
+permissions:
+    Empty.plugin:
+        description: Stuff
