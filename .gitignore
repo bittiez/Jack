@@ -45,3 +45,5 @@ fabric.properties
 
 #SpigotMC
 /spigot/
+
+test.sh
